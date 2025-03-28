@@ -32,6 +32,8 @@ const PostcardScene: FC = () => {
       <PerspectiveCamera makeDefault position={[2, 3, 12]} fov={20} />
       <Rig />
 
+      <color attach="background" args={["#f2e1c4"]} />
+
       <ambientLight intensity={3} />
       <pointLight
         position={[-1, 2, 3]}
